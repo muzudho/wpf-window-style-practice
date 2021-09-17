@@ -14,7 +14,7 @@
     <Grid>
         <Ellipse Width="480" Height="480" Fill="Orchid"/>
         <Ellipse Width="400" Height="400" Margin="0,80,0,0" Fill="PaleGoldenrod"/>
-        
+
         <!-- サイド髪 -->
         <Ellipse Width="200" Height="200" Margin="0,280,400,0" Fill="Orchid"/>
         <Ellipse Width="200" Height="200" Margin="400,280,0,0" Fill="Orchid"/>
@@ -23,7 +23,7 @@
         <Ellipse Width="150" Height="150" Margin="-250,-200,0,0" Fill="Orchid"/>
         <Ellipse Width="150" Height="200" Margin="0,-250,0,0" Fill="Orchid"/>
         <Ellipse Width="150" Height="150" Margin="0,-200,-250,0" Fill="Orchid"/>
-        
+
         <!-- 右目 -->
         <Path Data="M240,300 A10,10 0 0 0 150,300" Stroke="MidnightBlue" StrokeThickness="20"/>
 
@@ -33,5 +33,13 @@
         <!-- 口 -->
         <Path Data="M250,400 A10,10 0 0 0 350,380" Stroke="MidnightBlue" StrokeThickness="20"/>
 
+        <!-- 閉じるボタン -->
+        <Button Width="100" Height="36" Margin="-100,-350,0,0"
+                Content="閉じる" FontSize="14" Click="Button_Click">
+            <!-- 45度斜めにします -->
+            <Button.RenderTransform>
+                <RotateTransform Angle="45"/>
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 </Window>
