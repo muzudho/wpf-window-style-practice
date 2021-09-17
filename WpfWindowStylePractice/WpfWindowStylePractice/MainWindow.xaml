@@ -23,5 +23,15 @@
         <Ellipse Width="150" Height="150" Margin="-250,-200,0,0" Fill="Orchid"/>
         <Ellipse Width="150" Height="200" Margin="0,-250,0,0" Fill="Orchid"/>
         <Ellipse Width="150" Height="150" Margin="0,-200,-250,0" Fill="Orchid"/>
+        
+        <!-- 右目 -->
+        <Path Data="M240,300 A10,10 0 0 0 150,300" Stroke="MidnightBlue" StrokeThickness="20"/>
+
+        <!-- 左目 -->
+        <Path Data="M440,300 A10,10 0 0 0 350,300" Stroke="MidnightBlue" StrokeThickness="20"/>
+
+        <!-- 口 -->
+        <Path Data="M250,400 A10,10 0 0 0 350,380" Stroke="MidnightBlue" StrokeThickness="20"/>
+
     </Grid>
 </Window>
