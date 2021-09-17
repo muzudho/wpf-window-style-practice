@@ -35,7 +35,7 @@
 
         <!-- 閉じるボタン -->
         <Button Width="100" Height="36" Margin="-100,-350,0,0"
-                Content="閉じる" FontSize="14" Click="Button_Click">
+                Content="閉じる" FontSize="14" Click="CloseButton_Click">
             <!-- 45度斜めにします -->
             <Button.RenderTransform>
                 <RotateTransform Angle="45"/>
