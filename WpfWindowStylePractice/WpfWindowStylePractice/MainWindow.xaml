@@ -9,7 +9,7 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         AllowsTransparency="True"
-        Background="#00000000"
+        Background="#00000000" MouseMove="Window_MouseMove"
         >
     <Grid>
         <Ellipse Width="480" Height="480" Fill="Orchid"/>

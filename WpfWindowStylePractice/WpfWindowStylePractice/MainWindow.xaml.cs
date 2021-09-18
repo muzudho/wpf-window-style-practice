@@ -1,5 +1,6 @@
 ﻿namespace WpfWindowStylePractice
 {
+    using System.Diagnostics;
     using System.Windows;
 
     /// <summary>
@@ -16,6 +17,12 @@
         {
             // ウィンドウを閉じます
             this.Close();
+        }
+
+        private void Window_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            // ウィンドウのスクリーン座標位置
+            Trace.WriteLine($"Window_MouseMove left={this.Left} right={this.Top}");
         }
     }
 }
